@@ -22,3 +22,8 @@ print(next(a))
 print(next(a))
 print(next(a))
 print(next(a)) 
+
+
+#generator expresion
+mylist = [0,1,2,3,4,5,6]
+my_second_gen = (x*2 for x in mylist)
